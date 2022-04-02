@@ -47,7 +47,7 @@ sudo singularity build --sandbox ${SANDBOX} ${DEF.def}
 sudo singularity build ${SIMG} ${SANDBOX}
 ```
 
-#从镜像到沙箱
+### 从镜像到沙箱
 ```bash
 sudo singularity build --sandbox ${SANDBOX} ${SIMG}
 ```
